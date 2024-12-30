@@ -38,6 +38,7 @@ fn dostat(filename:&str)->Result<(),Box<dyn Error>>{
 }
 
 fn show_file_info(stat:Metadata,filename:&str){
+    print!("{} ",std::os::unix::fs::MetadataExt::ino(&stat));
     print!("{} ",mode_to_string(std::os::unix::fs::MetadataExt::mode(&stat)));
     print!("{} ",std::os::unix::fs::MetadataExt::nlink(&stat));
     print!("{} ",uid_to_name(std::os::unix::fs::MetadataExt::uid(&stat)));

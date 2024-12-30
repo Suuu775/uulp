@@ -1,0 +1,67 @@
+<!-- output of dumpe2fs /dev/sda in wsl2 -->
+Filesystem volume name:   <none>
+Last mounted on:          <not available>
+Filesystem UUID:          <none>
+Filesystem magic number:  0xEF53
+Filesystem revision #:    1 (dynamic)
+Filesystem features:      ext_attr sparse_super2 filetype extent flex_bg large_file huge_file extra_isize read-only
+Default mount options:    (none)
+Filesystem state:         clean
+Errors behavior:          Continue
+Filesystem OS type:       Linux
+Inode count:              12800
+Block count:              99438
+Reserved block count:     0
+Free blocks:              0
+Free inodes:              1
+First block:              0
+Block size:               4096
+Fragment size:            4096
+Blocks per group:         32768
+Fragments per group:      32768
+Inodes per group:         3200
+Inode blocks per group:   200
+Flex block group size:    2147483648
+Last mount time:          n/a
+Last write time:          Thu Jan  1 08:00:00 1970
+Mount count:              0
+Maximum mount count:      0
+Last checked:             Thu Jan  1 08:00:00 1970
+Check interval:           0 (<none>)
+Reserved blocks uid:      0 (user root)
+Reserved blocks gid:      0 (group root)
+First inode:              11
+Inode size:               256
+Required extra isize:     24
+Desired extra isize:      24
+
+
+Group 0: (Blocks 0-32767)
+  Primary superblock at 0, Group descriptors at 1-1
+  Block bitmap at 99430 (bg #3 + 1126)
+  Inode bitmap at 99431 (bg #3 + 1127)
+  Inode table at 98630-98829 (bg #3 + 326)
+  0 free blocks, 0 free inodes, 339 directories
+  Free blocks:
+  Free inodes:
+Group 1: (Blocks 32768-65535)
+  Block bitmap at 99432 (bg #3 + 1128)
+  Inode bitmap at 99433 (bg #3 + 1129)
+  Inode table at 98830-99029 (bg #3 + 526)
+  0 free blocks, 0 free inodes, 357 directories
+  Free blocks:
+  Free inodes:
+Group 2: (Blocks 65536-98303)
+  Block bitmap at 99434 (bg #3 + 1130)
+  Inode bitmap at 99435 (bg #3 + 1131)
+  Inode table at 99030-99229 (bg #3 + 726)
+  0 free blocks, 0 free inodes, 498 directories
+  Free blocks:
+  Free inodes:
+Group 3: (Blocks 98304-99437)
+  Block bitmap at 99436 (+1132)
+  Inode bitmap at 99437 (+1133)
+  Inode table at 99230-99429 (+926)
+  0 free blocks, 1 free inodes, 259 directories
+  Free blocks:
+  Free inodes: 12800
