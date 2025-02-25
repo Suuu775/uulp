@@ -1,0 +1,8 @@
+[package]
+name = "ch11_src"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.39"
+nix = {version="0.29.0",features = ["user","process","fs"]}
